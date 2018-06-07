@@ -2,7 +2,7 @@
 	height: 100vh;
 	padding-top: 30px;
 	background: /* top, transparent red, faked with gradient */
-	linear-gradient( rgba(255, 255, 255, 0.90), rgba(255, 255, 255)) 60%, url("../../assets/img/rwanda-flag.jpeg") no-repeat center center fixed;
+	linear-gradient( rgba(255, 255, 255, 0.60) 2.10%, rgba(255, 255, 255, 1)) , url("../../assets/img/rwanda-flag.jpeg") no-repeat center center fixed;
 	/* background: linear-gradient(to bottom, #33ccff 61%, #ff99cc 100%); */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -16,8 +16,8 @@
 
 .card {
 	min-width: 275;
-	margin-left: 30%;
-	margin-right: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
 }
 
 .title {

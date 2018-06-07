@@ -5,11 +5,13 @@ import React, { Component } from 'react';
 // import Button from '@material-ui/core/Button';
 // import Typography from '@material-ui/core/Typography';
 import { Button, Typography, CardContent, CardActions, Card, TextField } from '@material-ui/core'
+import { FormGroup, For, ControlLabel, FormControl, HelpBlock } from 'react-bootstrap'
+import { FormInputs } from '../../components/FormInputs/FormInputs'
 import styles from './styles.css'
 class Login extends Component {
     render() {
         return (
-            <div className="container home">
+            <div className="container-fluid home">
                 <div className="col-md-12">
                     <Card className="card">
                         <CardContent>
@@ -23,7 +25,9 @@ class Login extends Component {
                                 // className={classes.textField}
                                 margin="normal"
                                 required
+                                fullWidth
                             />
+                            <br />
                             <TextField
                                 id="password-input"
                                 label="Ijambobanga"
@@ -32,9 +36,12 @@ class Login extends Component {
                                 type="Password"
                                 autoComplete="current-password"
                                 required
+                                fullWidth
                             // margin="normal"
                             />
-                            <Button variant="outlined" size="large" color="primary">
+                            <br />
+                            <br />
+                            <Button variant="outlined" size="large" color="primary" fullWidth>
                                 Fungura
                             </Button>
                         </CardContent>
